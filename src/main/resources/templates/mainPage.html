@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" th:href="@{/}">Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto"></ul>
+            <span class="navbar-text">
+                <span style="margin: 0px 10px;" th:onclick="|location.href='@{/signup}'|">회원가입</span>
+                <span style="margin: 0px 10px;" th:onclick="|location.href='@{/login}'|">로그인</span>
+            </span>
+        </div>
+    </nav>
+
+
+
+    <div class="container" style="margin-top: 30px;">
+
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">제목</th>
+                    <th scope="col">작성자</th>
+                    <th scope="col">작성시간</th>
+                </tr>
+            </thead>
+            <tbody th:each="post : ${posts}">
+                <tr>
+                    <th th:text="${post.postId}" scope="row">123</th>
+                    <td><a th:text="${post.title}" th:href="@{/posts/{id}(id = ${post.postId})}">title</a></td>
+                    <td th:text="${post.username}">username</td>
+                    <td th:text="${post.createdTime}">createdTime</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button type="button" class="btn btn-dark" th:onclick="|location.href='@{/write}'|">글 작성</button>
+    </div>
+</body>
+</html>
