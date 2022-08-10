@@ -18,7 +18,23 @@
 
 <br>
 
-## 2. 데이터베이스 ERD
+## 2. Controller에서의 HTTP 요청
+URL | HTTP 메소드 | 역할
+---|:---:|---:
+`"/"` | `GET` | 메인화면
+`"/login"` | `GET` | 메인화면
+`absolute` | `GET` | 메인화면
+`fixed` | `GET` | 메인화면
+
+
+
+
+<br>
+
+## 3. 데이터베이스 ERD
+
+
+
 
 <br>
 
