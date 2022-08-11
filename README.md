@@ -14,7 +14,7 @@
 * 좌측하단에는 글작성 버튼이 있다.
   * 로그인 상태라면 글 작성 페이지로 이동한다.
   * 미로그인 상태라면 로그인화면으로 이동한다.
-
+<br><br>
 
 ![1-1](https://user-images.githubusercontent.com/101168818/184191160-b09c83c7-53d3-4bad-862b-cf00aa03a9ec.JPG)
 
@@ -22,7 +22,7 @@
 <br><br><br>
 
 ![1-2](https://user-images.githubusercontent.com/101168818/184191175-8fc717ca-3bf0-4d01-b93f-292a6a1e47e2.JPG)
-
+<br><br>
 
 
 
@@ -38,6 +38,18 @@
   * 입력받은 아이디 문자열을 아이디로 갖는 사용자가 없거나 그 사용자의 비밀번호가 입력된 비밀번호와 다를 경우 '아이디 또는 비밀번호를 확인해주세요'를 출력한다.
   * 그 이외의 경우 attribute 이름이 "loginInfo"로, 값을 사용자(Member) Entity의 PK로 갖는 세션을 생성하고 
   그 세션의 만료기간을 300초로 설정하고 메인화면으로 redirect 시킨다.
+
+<br><br>
+
+![2-1](https://user-images.githubusercontent.com/101168818/184197366-98f209eb-1ce6-433e-879e-6dbac3d6f85c.JPG)
+
+
+<br><br><br>
+
+![2-2](https://user-images.githubusercontent.com/101168818/184197373-4413bbcd-2697-4372-9062-3349ce03f230.JPG)
+
+<br><br>
+
 
 ### (03) 로그아웃 기능
 * '/logout' URL로 접속하였을 때 세션을 확인하고 세션이 있으면 그 세션을 만료시키고 메인화면으로 redirect 시킨다.
