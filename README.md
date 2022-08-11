@@ -14,6 +14,17 @@
   * 로그인 상태라면 글 작성 페이지로 이동한다.
   * 미로그인 상태라면 로그인화면으로 이동한다.
 
+
+![1-1](https://user-images.githubusercontent.com/101168818/184191160-b09c83c7-53d3-4bad-862b-cf00aa03a9ec.JPG)
+
+
+![1-2](https://user-images.githubusercontent.com/101168818/184191175-8fc717ca-3bf0-4d01-b93f-292a6a1e47e2.JPG)
+
+
+
+
+
+
 ### (02) 로그인 기능
 * '/login' URL로 접속하였을 때 세션을 확인한다.
   * 로그인 상태라면 메인화면으로 redirect 시킨다.
