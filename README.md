@@ -176,12 +176,6 @@ URL | HTTP 메소드 | 역할
 
 <br>
 
-## 3. 데이터베이스 ERD
-
-
-
-
-<br>
 
 
 ![button](https://user-images.githubusercontent.com/101168818/184031296-3ab09363-9b77-47e5-a15d-51e891dbfa16.JPG)
