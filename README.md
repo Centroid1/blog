@@ -68,6 +68,21 @@
   * 입력받은 아이디 문자열을 아이디로 갖는 사용자가 있다면 '사용중인 로그인 아이디 입니다'를 출력한다.
   * 그 이외의 경우 입력받은 폼 데이터를 이용하여 Member Entity를 생성하고 데이터베이스에 저장한다.
   
+  
+<br><br>
+
+![4-1](https://user-images.githubusercontent.com/101168818/184197789-14fb0fbf-4eb9-4f84-8859-c31a2295d9bc.JPG)
+
+<br><br><br>
+  ![4-2](https://user-images.githubusercontent.com/101168818/184197813-2672a55c-716a-4bad-816e-e2b9ac1ed64c.JPG)
+
+  
+<br><br><br>
+  ![4-3](https://user-images.githubusercontent.com/101168818/184197821-060c9e80-f6e3-4e68-9cae-538aa5ea084a.JPG)
+
+
+<br><br><br><br>
+  
 ### (05) 게시글 작성 기능
 * '/wrtie' URL로 접속하였을 때 세션을 확인한다.
   * 로그인 상태라면 게시글 입력 폼 화면이 보이게 하고 우측상단에 회원의 username과 logout 글싸가 보이게 한다.
