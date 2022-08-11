@@ -22,7 +22,7 @@
 <br><br><br>
 
 ![1-2](https://user-images.githubusercontent.com/101168818/184191175-8fc717ca-3bf0-4d01-b93f-292a6a1e47e2.JPG)
-<br><br>
+<br><br><br><br>
 
 
 
@@ -48,11 +48,14 @@
 
 ![2-2](https://user-images.githubusercontent.com/101168818/184197373-4413bbcd-2697-4372-9062-3349ce03f230.JPG)
 
-<br><br>
+<br><br><br><br>
 
 
 ### (03) 로그아웃 기능
 * '/logout' URL로 접속하였을 때 세션을 확인하고 세션이 있으면 그 세션을 만료시키고 메인화면으로 redirect 시킨다.
+
+
+<br><br><br><br>
 
 ### (04) 회원가입 기능
 * '/signup' URL로 접속하였을 때 세션을 확인한다.
