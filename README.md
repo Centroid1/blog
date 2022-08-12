@@ -139,6 +139,18 @@
   * 입력받은 아이디 문자열을 아이디로 갖는 사용자가 있다면 '사용중인 로그인 아이디 입니다'를 출력한다.
   * 그 이외의 경우 입력받은 폼 데이터를 이용하여 Member Entity를 생성하고 데이터베이스에 저장한다.
 
+<br><br>
+![6-1](https://user-images.githubusercontent.com/101168818/184279086-6b084e20-0b76-43c1-b18a-719b7e212219.png)
+
+
+<br><br><br>
+
+![6-2](https://user-images.githubusercontent.com/101168818/184279089-d77edcd3-d43b-4aa5-8808-c5e5f5ebe15f.png)
+
+
+<br><br><br><br>
+
+
 ### (07) 게시글 수정 기능
 #### (07) - 1 로그인 상태일 때
 
