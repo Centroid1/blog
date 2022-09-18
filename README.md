@@ -166,7 +166,7 @@
 
 <br><br><br>
 
-![6-3](https://user-images.githubusercontent.com/101168818/190904697-9623445f-0028-404b-94bb-2858cb2e8b31.png)
+![6-3](https://user-images.githubusercontent.com/101168818/190904817-0a2ebcc6-f325-4f46-a20e-76765fc59b1f.png)
 
 
 <br><br><br><br>
