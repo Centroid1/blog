@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    url: jdbc:h2:tcp://localhost/~/blog
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+      
+server:
+  servlet:
+    session:
+      tracking-modes: cookie
+
+
+logging.level:
+  org.hibernate.SQL: debug
