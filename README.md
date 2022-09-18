@@ -16,12 +16,21 @@
   * 미로그인 상태라면 로그인화면으로 이동한다.
 <br><br>
 
-![1-1](https://user-images.githubusercontent.com/101168818/184191160-b09c83c7-53d3-4bad-862b-cf00aa03a9ec.JPG)
+
+![1-1](https://user-images.githubusercontent.com/101168818/190903641-b457581e-8fa4-4583-a1dc-145263e577b4.png)
+
 
 
 <br><br><br>
 
-![1-2](https://user-images.githubusercontent.com/101168818/184191175-8fc717ca-3bf0-4d01-b93f-292a6a1e47e2.JPG)
+![1-2](https://user-images.githubusercontent.com/101168818/190903646-1cb88b4d-e629-4c06-85ca-7e8a803d3e50.png)
+
+
+<br><br><br>
+
+![1-3](https://user-images.githubusercontent.com/101168818/190903651-2aaf0aea-31ea-4207-b3c4-04a95836ad62.png)
+
+
 <br><br><br><br>
 
 
