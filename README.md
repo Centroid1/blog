@@ -208,17 +208,17 @@ URL | HTTP 메소드 | 역할
 ---|:---:|---:
 `"/"` | `GET` | 메인화면 접속
 `"/login"` | `GET` | 로그인 화면 접속
-`"/login"` | `POST` | 로그인 화면 접속
+`"/login"` | `POST` | 로그인 폼 데이터 전송
 `"/logout"` | `GET` | 로그아웃
 `"/signup"` | `GET` | 회원가입 화면 접속
 `"/signup"` | `POST` | 회원가입 폼 데이터 전송
 `"/write"` | `GET` | 글 작성 페이지 접속
 `"/write"` | `POST` | 글 작성 폼 데이터 전송
-`"/posts/{id}"` | `GET` | id로 식별되는 post 열람
+`"/posts/{id}"` | `GET` | id로 식별되는 post 데이터 읽기
 `"/posts/{id}/comment"` | `POST` | id로 식별되는 post에 댓글 작성
 `"/posts/{id}/edit"` | `GET` | id로 식별되는 post를 수정하는 화면 접속
 `"/posts/{id}/edit"` | `POST` | id로 식별되는 post를 수정하는 폼 데이터 전송
-`"/posts/{id}/delete"` | `POST` | id로 식별되는 post 
+`"/posts/{id}/delete"` | `POST` | id로 식별되는 post 삭제
 `"/comments/{commentId}/delete"` | `POST` | id로 식별되는 comment 삭제
 
 
